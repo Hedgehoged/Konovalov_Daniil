@@ -171,6 +171,7 @@ char* search (int fd, char** text, int N, char * string, int depth) {
 	if (allnumber == 0) {
 		answer = (char*)malloc(14);
 		strcpy (answer, "Not found\n");
+		int mn;
 		return answer;
 	}
 	write (fd, &depth, 4);
