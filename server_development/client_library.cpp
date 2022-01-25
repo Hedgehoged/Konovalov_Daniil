@@ -117,6 +117,7 @@ int  readFromServer (int fd)
     int   nbytes;
 	int blocks;
 	int i;
+	int j;
     char  buf[1025];
 	char *ans;
 	int proverka;
@@ -147,6 +148,7 @@ int  readFromServer (int fd)
 	bzero (buf, sizeof(buf));
 	bzero (ans, sizeof(ans));
 	free (ans);
+	
     return 0;
 }
 
