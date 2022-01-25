@@ -22,6 +22,7 @@ public:
 
 protected:
     void set_primitive(sf::PrimitiveType type);
+    void get_shrek(sf:PrimitiveTyp1 type, sf PriitiveTyp2 type);
 
 private:
     std::pair<Vector2D, Vector2D> xy_boundaries() const;
